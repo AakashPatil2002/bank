@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <header class="top">
+            <nav>
+                <div class="d-flex">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <img class="logo-img" src="./images/illustrations/logo-1.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                       <div class="above-red">
+                        <div class="text-end d-xl-none">
+                            <a href="#offcanva" data-bs-toggle="offcanvas"><i class="bi bi-list"></i></a>
+                            <div class="offcanvas offcanvas-start" id="offcanva" data-bs-theme="dark">
+                                <div class="offcanvas-header">
+                                    <h2 class="offcanvas-tittle">
+                                        <img width="175px" height="50px" src="./images/illustrations/logo-1.png" alt="">
+                                    </h2>
+                                    <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="mobile-off-list">
+                                        <li class="bg-white">
+                                                <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">Home</a>
+                                                <ul class="dropdown-menu" data-bs-theme="dark">
+                                                    <li><a href="#" class="dropdown-item">Home1</a></li>
+                                                    <li><a href="#" class="dropdown-item">Home2</a></li>
+                                                    <li><a href="#" class="dropdown-item">Home3</a></li>
+                                                    <li><a href="#" class="dropdown-item">Home4</a></li>
+                                                    <li><a href="#" class="dropdown-item">Home5</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">Services</a>
+                                                <ul class="dropdown-menu" data-bs-theme="dark">
+                                                    <li><a href="#" class="dropdown-item">Accounds</a></li>
+                                                    <li><a href="#" class="dropdown-item">Cards</a></li>
+                                                    <li><a href="#" class="dropdown-item">Loan</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">About</a>
+                                                <ul class="dropdown-menu" data-bs-theme="dark">
+                                                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                                                    <li><a class="dropdown-item" href="#">Bord Of directors</a></li>
+                                                    <li><a class="dropdown-item" href="#">career</a></li>
+                                                    <li><a class="dropdown-item" href="#">career details</a></li>
+                                                    <li><a class="dropdown-item" href="#">business</a></li>
+                                                    <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                                                    <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">News</a>
+                                                <ul class="dropdown-menu " data-bs-theme="dark">
+                                                    <li><a href="#" class="dropdown-item">Grid View</a></li>
+                                                    <li><a href="#" class="dropdown-item">List View</a></li>
+                                                    <li><a href="#" class="dropdown-item">Large Image</a></li>
+                                                    <li><a href="#" class="dropdown-item">Singal Post</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">Apply Now</a>
+                                                <ul class="dropdown-menu" data-bs-theme="dark">
+                                                    <li><a class="dropdown-item" href="#">Home Loan</a></li>
+                                                    <li><a class="dropdown-item" href="#">Personal Loan</a></li>
+                                                    <li><a class="dropdown-item" href="#">Vehicle Loan</a></li>
+                                                    <li><a class="dropdown-item" href="#">Education Loan</a></li>
+                                                    <li><a class="dropdown-item" href="#">Gold Loan</a></li>
+                                                </ul>
+                                        </li>
+                                        <li><a class="nav-list-a" href="#">Get in touch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-none d-xl-block ms-5">   
+                            <ul class="d-flex flex-wrap justify-content-between nav-list">
+                                <li class="bg-white">
+                                        <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">Home</a>
+                                        <ul class="dropdown-menu" data-bs-theme="dark">
+                                            <li><a href="#" class="dropdown-item">Home1</a></li>
+                                            <li><a href="#" class="dropdown-item">Home2</a></li>
+                                            <li><a href="#" class="dropdown-item">Home3</a></li>
+                                            <li><a href="#" class="dropdown-item">Home4</a></li>
+                                            <li><a href="#" class="dropdown-item">Home5</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">Services</a>
+                                        <ul class="dropdown-menu" data-bs-theme="dark">
+                                            <li><a href="#" class="dropdown-item">Accounds</a></li>
+                                            <li><a href="#" class="dropdown-item">Cards</a></li>
+                                            <li><a href="#" class="dropdown-item">Loan</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">About</a>
+                                        <ul class="dropdown-menu" data-bs-theme="dark">
+                                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                                            <li><a class="dropdown-item" href="#">Bord Of directors</a></li>
+                                            <li><a class="dropdown-item" href="#">career</a></li>
+                                            <li><a class="dropdown-item" href="#">career details</a></li>
+                                            <li><a class="dropdown-item" href="#">business</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">News</a>
+                                        <ul class="dropdown-menu " data-bs-theme="dark">
+                                            <li><a href="#" class="dropdown-item">Grid View</a></li>
+                                            <li><a href="#" class="dropdown-item">List View</a></li>
+                                            <li><a href="#" class="dropdown-item">Large Image</a></li>
+                                            <li><a href="#" class="dropdown-item">Singal Post</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-list-a dropdown-toggle" data-bs-toggle="dropdown" href="#">Apply Now</a>
+                                        <ul class="dropdown-menu" data-bs-theme="dark">
+                                            <li><a class="dropdown-item" href="#">Home Loan</a></li>
+                                            <li><a class="dropdown-item" href="#">Personal Loan</a></li>
+                                            <li><a class="dropdown-item" href="#">Vehicle Loan</a></li>
+                                            <li><a class="dropdown-item" href="#">Education Loan</a></li>
+                                            <li><a class="dropdown-item" href="#">Gold Loan</a></li>
+                                        </ul>
+                                </li>
+                                <li><a class="nav-list-a" href="#">Get in touch</a></li>
+                            </ul>
+                        </div>
+                       </div>
+                       <div class="d-none d-xl-block red-bellow-links">
+                            <p class="mb-0"><b><i class="bi bi-megaphone-fill"></i> Updates:</b> Get upto 4%* on our Savings Account Balances with Finbank. <a class="more-details" href="#"><i class="bi bi-chevron-right"></i> More Details</a></p>
+                       </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero">
+                <div class="d-flex flex-wrap">
+                    <div class="col-0 col-md-3 col-lg-5">
+                    </div>
+                    <div class=" col-10 m-auto col-md-9 col-lg-7 hero-content">
+                    <h1 class="hero-heading">An Innovative<br> Framework for Your<br> Financial solutions</h1>
+                    <p class="hero-para">Weakness of will, which is the same as their duty through saying through shrinking from toil.</p>
+                    <div>
+                        <a class="make-appointment" href="#">Make an appontment</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="ps-3">
+                    <div>
+                        <a class="hero-make-btn bg-bown" href="#"><span>Make Payment</span><i class="bi bi-play-circle-fill text-white"></i></a>
+                    </div>
+                    <div>
+                        <a class="hero-make-btn bg-red" href="#"><span>Make An Enquiry</span><i class="bi bi-play-circle-fill text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bank-for-better">
+               <div class="text-center">
+                <h2 class="heading-h2">Bank for a Better Tomorrow</h2>
+                <p class="gray-para">Committed to helping our customers succeed.</p>
+               </div>
+               <div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-5">
+                        <div class="text-center">
+                            <img src="./images/illustrations/counting-box-bg.png" alt="">
+                            <h3 class="count">01</h3>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="bb-h4">Fixed Depost</h4>
+                            <h3 class="bb-h3">Fixed Returns with Peace of Mind</h3>
+                            <p class="gray-para">Must explain to you how work mistaken give you complete guide.</p>
+                        </div>
+                        <div class="text-center">
+                            <img height="100" src="./images/illustrations/shape-2.png" alt="">
+                        </div>
+                       <div class="rm-div">
+                        <a class="read-more" href="#"><span>read more</span> <span class="rm-plus">+</span></a>
+                       </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-5">
+                        <div class="text-center">
+                            <img src="./images/illustrations/counting-box-bg.png" alt="">
+                            <h3 class="count">02</h3>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="bb-h4">Current Account</h4>
+                            <h3 class="bb-h3">Banking Solutions for a Business</h3>
+                            <p class="gray-para">No one rejects dislikes avoids pleasures because it is pleasure trivial.</p>
+                        </div>
+                        <div class="text-center">
+                            <img height="100" src="./images/illustrations/shape-2.png" alt="">
+                        </div>
+                       <div class="rm-div">
+                        <a class="read-more" href="#"><span>read more</span> <span class="rm-plus">+</span></a>
+                       </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="./images/illustrations/counting-box-bg.png" alt="">
+                            <h3 class="count">03</h3>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="bb-h4">Mutual Funds</h4>
+                            <h3 class="bb-h3">Our Strategies for Better Returns</h3>
+                            <p class="gray-para">Except obtain some advantages from it But who has any right to find enjoy.</p>
+                        </div>
+                        <div class="text-center">
+                            <img height="100" src="./images/illustrations/shape-2.png" alt="">
+                        </div>
+                       <div class="rm-div">
+                        <a class="read-more" href="#"><span>read more</span> <span class="rm-plus">+</span></a>
+                       </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </header>
+        <main>
+            <section class="your-needs">
+                <div class="your-needs-heading mb-5 text-center text-md-start">
+                    <h2 class="heading-h2 text-white">Banking For Your Needs</h2>
+                    <p class="hero-para mt-1">The bank that builds better relationships.</p>
+                </div>
+                <div class="row mb-md-5">
+                    <div class="col-md-6 mb-4" data-aos="flip-up">
+                        <div class="d-flex justify-content-between align-items-center individuals">
+                            <div>
+                                <p class="gray-para mb-2">Banking For</p>
+                                <h3 class="yn-h3">individuals</h3>
+                            </div>
+                            <div>
+                                <a href="#"><i class="bi bi-chevron-down dw-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4" data-aos="flip-up">
+                        <div class="d-flex justify-content-between align-items-center componies">
+                            <div>
+                                <p class="gray-para mb-2">Banking For</p>
+                                <h3 class="yn-h3">Companies</h3>
+                            </div>
+                            <div>
+                                <a href="#"><i class="bi bi-chevron-down dw-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-lg-4 mb-4" data-aos="zoom-out-right">  
+                        <div class="service-box">
+                            <div class="d-flex justify-content-between mb-4">
+                                <img width="40px" height="40px" src="./images/illustrations/landmark-solid.svg" alt="">
+                                <div class="rga-box">
+                                    <a href="#"><i class="bi bi-arrow-right rg-arrow"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="service-box-heading" href="#"><h4>Consumer Loans</h4></a>
+                                <div class="load">
+                                    <div class="fill"></div>
+                                </div>
+                                <p class="gray-para">Duty or the obligations of business will frequently occur.</p>
+                                <p class="gray-para"><span class="text-danger">*</span>Check Interest Rates</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4" data-aos="zoom-out-up">  
+                        <div class="service-box">
+                            <div class="d-flex justify-content-between mb-4">
+                                <img width="40px" height="40px" src="./images/illustrations/desktop-solid(1).svg" alt="">
+                                <div class="rga-box">
+                                    <a href="#"><i class="bi bi-arrow-right rg-arrow"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="service-box-heading" href="#"><h4>Online & Mobile</h4></a>
+                                <div class="load">
+                                    <div class="fill"></div>
+                                </div>
+                                <p class="gray-para">Equal blame belongs to those who fail their duty through weakness.</p>
+                                <p class="gray-para"><span class="text-danger">*</span> Terms & Conditions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5" data-aos="zoom-out-left">  
+                        <div class="service-box">
+                            <div class="d-flex justify-content-between mb-4">
+                                <img width="40px" height="40px" src="./images/illustrations/piggy-bank-solid.svg" alt="">
+                                <div class="rga-box">
+                                    <a href="#"><i class="bi bi-arrow-right rg-arrow"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="service-box-heading" href="#"><h4>Savings & CDs</h4></a>
+                                <div class="load">
+                                    <div class="fill"></div>
+                                </div>
+                                <p class="gray-para">Take trivial example which of us ever all undertakes laborious.</p>
+                                <p class="gray-para"><span class="text-danger">*</span>Interest rate up to 5% p.a</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="text-center">
+                    <a class="make-appointment" href="#">View All Services</a>
+                </div>
+            </section>
+            <section class="grow">
+                <div class="text-center mb-5">
+                    <h2 class="heading-h2">Grow Your Wealth Secure</h2>
+                    <p class="gray-para">Don’t just make a deposit, make an investment today.</p>
+                </div>
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="col-12 col-md-4" data-aos="zoom-out-right">
+                        <div class="col-10 m-auto grow-box">
+                            <div class="grow-img">
+                              <img class="img-fluid img-scale" src="./images/illustrations/pexels-photo-12.webp" alt="">
+                            </div>
+                            <div class="p-3">
+                                <p>Beguiled and demoralized by charms pleasure of the moment so blinded by they cannot and trouble.</p>
+                                <a class="read-more-r" href="#">read more</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-md-4" data-aos="zoom-out-up">
+                        <div class="col-10 m-auto grow-box">
+                            <div class="grow-img">
+                              <img class="img-fluid img-scale" src="./images/illustrations/wealth-secure-2.jpeg" alt="">
+                            </div>
+                            <div class="p-3">
+                                <p>Beguiled and demoralized by charms pleasure of the moment so blinded by they cannot and trouble.</p>
+                                <a class="read-more-r" href="#">read more</a>
+                            </div>
+                        </div>     
+                    </div>
+                    <div class="col-12 col-md-4" data-aos="zoom-out-left">
+                        <div class="col-10 m-auto grow-box">
+                            <div class="grow-img">
+                              <img class="img-fluid img-scale" src="./images/illustrations/wealth-secure-4.webp" alt="">
+                            </div>
+                            <div class="p-3">
+                                <p>The claims off duty or the obligations business it will frequently occur that pleasures be repudiated.</p>
+                                <a class="read-more-r" href="#">read more</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+            <section class="emg-service">
+                <div class="text-center mb-5">
+                    <h2 class="heading-h2">Emergency Service Requests</h2>
+                    <p class="gray-para">List of banking service requests all in one place.</p>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                            <div class="d-flex justify-content-center">
+                                <span class="icon mb-4">
+                                    <i class="bi bi-credit-card fs-1"></i>
+                                </span>    
+                            </div>
+                            <div class="text-center px-5">
+                                <h5><a class="es-a" href="#">Credit/Debit Card Related</a></h5>
+                                <span><i class="bi bi-chevron-down text-danger"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                            <div class="d-flex justify-content-center">
+                                <span class="icon mb-4">
+                                    <i class="bi bi-tv fs-1"></i>
+                                </span>    
+                            </div>
+                            <div class="text-center px-5">
+                                <h5><a class="es-a" href="#">Mobile/internet banking</a></h5>
+                                <span><i class="bi bi-chevron-down text-danger"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                            <div class="d-flex justify-content-center">
+                                <span class="icon mb-4">
+                                    <i class="bi bi-journals fs-1"></i>
+                                </span>    
+                            </div>
+                            <div class="text-center px-5">
+                                <h5><a class="es-a" href="#">Account details changing</a></h5>
+                                <span><i class="bi bi-chevron-down text-danger"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                            <div class="d-flex justify-content-center">
+                                <span class="icon mb-4">
+                                    <i class="bi bi-journal-richtext fs-1"></i>
+                                </span>    
+                            </div>
+                            <div class="text-center px-5">
+                                <h5><a class="es-a" href="#">Check Book/DD Related</a></h5>
+                                <span><i class="bi bi-chevron-down text-danger"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 mb-5">
+                            <ul class="ps-0 mb-0 call-list">
+                                <li><a class="call-list-item" href="#">Block Debit / ATM Card</a> <span class="list-right-arrow"><i class="bi bi-arrow-right"></i></span></li>
+                                <li><a class="call-list-item" href="#">Generate Debit Card Pin Number</a> <span class="list-right-arrow"><i class="bi bi-arrow-right"></i></span></li>
+                                <li><a class="call-list-item" href="#">Unlock Debit / ATM Card</a> <span class="list-right-arrow"><i class="bi bi-arrow-right"></i></span></li>
+                                <li><a class="call-list-item" href="#">Reissue Lost Debit / ATM Card</a> <span class="list-right-arrow"><i class="bi bi-arrow-right"></i></span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 mb-5">
+                            <div class="container-fluid">
+                                <div class="row call-red">
+                                    <div class="col-sm-6 bg-left">
+                                        <div class="bg-left-text">
+                                        <span><i class="bi bi-headset"></i></span>
+                                        <h4 class="fs-5 text-white">Call for</h4>
+                                        <h3 class="fs-4 text-white">Private Banking</h3>
+                                        <h4><a class="text-danger fs-4" href="#">+8(222)123-456-78</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 call-right">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="personlize-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-5" data-aos="fade-right">
+                            <div class="mobile-img">
+                                <img class="img-fluid" src="./images/illustrations/features-style3-img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-5">
+                            <h2 class="personalize-h2">Personalize Your Card and Stand Out From Crowd</h2>
+                            <p class="gray-para">Desire that they cannot foresee the pain & trouble that are bound too ensue equal blame belongs through shrinking.</p>
+                            <p class="gray-para"><span class="text-danger pe-2"><i class="bi bi-check2"></i></span>Great explorer of the master-builder</p>
+                            <p class="gray-para"><span class="text-danger pe-2"><i class="bi bi-check2"></i></span>The master-builder of great explorer </p>
+                            <div>
+                                <h5 class="mb-3">Apply for Credit Card</h5>
+                                <input class="form-control" type="text" placeholder="Name">
+                                <div>
+                                    <a class="apply-now" href="#">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="foreign-ex">
+                <div class="foreign-heading text-center mb-5">
+                    <h2 class="foreign-h2">Foreign Exchange Rates</h2>
+                    <p class="gray-para">Denouncing pleasure & praising pain was born.</p>
+                </div>
+                <div class="container-fluid">
+                    <div class="col-12">
+                        <div class="d-flex flex-wrap justify-content-between mb-5">
+                            <div class="col-lg-9">
+                                <div class="d-flex flex-wrap">
+                                    <a class="for-red mb-3" href="#">Money Send & Receive</a>
+                                     <a class="for-white mb-3" href="#">Load & Redeem Forex Card</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3"><span></i></span><a class="assistant" href="#"><i class="bi bi-list-nested"></i>Click to Get Assistant</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-xl-2 mb-5">
+                            <div class="flag-wrapper">
+                                <div class="text-center py-4">
+                                    <img class="flag-img" src="./images/illustrations/flag-1.png" alt=""> <br>
+                                    <h5 class="text-white">USD</h5>
+                                </div>
+                                <div class="send">
+                                    <span>Send</span><span>:</span><span>79.89</span>
+                                </div>
+                                <div class="send">
+                                    <span>Receive</span><span>:</span><span>76.54</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-2 mb-5">
+                            <div class="flag-wrapper">
+                                <div class="text-center py-4">
+                                    <img class="flag-img" src="./images/illustrations/flag-2.png" alt=""> <br>
+                                    <h5 class="text-white">SEK</h5>
+                                </div>
+                                <div class="send">
+                                    <span>Send</span><span>:</span><span>8.20</span>
+                                </div>
+                                <div class="send">
+                                    <span>Receive</span><span>:</span><span>7.25</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-2 mb-5">
+                            <div class="flag-wrapper">
+                                <div class="text-center py-4">
+                                    <img class="flag-img" src="./images/illustrations/flag-3.png" alt=""> <br>
+                                    <h5 class="text-white">GBP</h5>
+                                </div>
+                                <div class="send">
+                                    <span>Send</span><span>:</span><span>101.88</span>
+                                </div>
+                                <div class="send">
+                                    <span>Receive</span><span>:</span><span>96.55</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-2 mb-5">
+                            <div class="flag-wrapper">
+                                <div class="text-center py-4">
+                                    <img class="flag-img" src="./images/illustrations/flag-4.png" alt=""> <br>
+                                    <h5 class="text-white">JYP</h5>
+                                </div>
+                                <div class="send">
+                                    <span>Send</span><span>:</span><span>62.86</span>
+                                </div>
+                                <div class="send">
+                                    <span>Receive</span><span>:</span><span>58.46</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-2 mb-5">
+                            <div class="flag-wrapper">
+                                <div class="text-center py-4">
+                                    <img class="flag-img" src="./images/illustrations/flag-5.png" alt=""> <br>
+                                    <h5 class="text-white">AUD</h5>
+                                </div>
+                                <div class="send">
+                                    <span>Send</span><span>:</span><span>57.52</span>
+                                </div>
+                                <div class="send">
+                                    <span>Receive</span><span>:</span><span>54.21</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-2 mb-5">
+                            <div class="flag-wrapper">
+                                <div class="text-center py-4">
+                                    <img class="flag-img" src="./images/illustrations/flag-6.png" alt=""> <br>
+                                    <h5 class="text-white">CAD</h5>
+                                </div>
+                                <div class="send">
+                                    <span>Send</span><span>:</span><span>63.41</span>
+                                </div>
+                                <div class="send">
+                                    <span>Receive</span><span>:</span><span>59.75</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="q-a">
+                <div class="container-fluid mb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap justify-content-between">
+                                <div class="text-center m-auto mt-5 ms-lg-0 mb-3">
+                                    <h2 class="personalize-h2">Questions & Answers</h2>
+                                    <p class="gray-para">Find answers to all your queries about our service.</p>
+                                </div>
+                                <div class="text-center m-auto text-lg-start">
+                                    <div>
+                                        <h5>Help You to Find</h5>
+                                        <div class="search">
+                                            <input class="related-k" type="text" placeholder="related keyword..."><a class="text-decoration-none" href="#"><i class="bi bi-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="q-a-img">
+                                <img class="img-fluid img-scale" src="./images/illustrations/faq-style1__image.jpg" alt="Light image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="accordion accordion-flush" id="accordian-main">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#one">
+                                        What is the minimum balance?
+                                    </button>
+                                  </h2>
+                                  <div id="one" class="accordion-collapse show" data-bs-parent="#accordian-main">
+                                    <div class="accordion-body">
+                                        Rationally encounter consequences that are extremely painful again there anyone who loves or pursues desire.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#two">
+                                        What is the rate of interest?
+                                    </button>
+                                  </h2>
+                                  <div id="two" class="accordion-collapse collapse" data-bs-parent="#accordian-main">
+                                    <div class="accordion-body">Rationally encounter consequences that are extremely painful again there anyone who loves or pursues desire.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#three">
+                                        When will I receive my account statement?
+                                    </button>
+                                  </h2>
+                                  <div id="three" class="accordion-collapse collapse" data-bs-parent="#accordian-main">
+                                    <div class="accordion-body">
+                                        Rationally encounter consequences that are extremely painful again there anyone who loves or pursues desire.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#four">
+                                        Can I use any branch across India?
+                                      </button>
+                                    </h2>
+                                    <div id="four" class="accordion-collapse collapse" data-bs-parent="#accordian-main">
+                                        <div class="accordion-body">
+                                            Rationally encounter consequences that are extremely painful again there anyone who loves or pursues desire.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#five">
+                                        How safe/secure is our net banking a/c?
+                                      </button>
+                                    </h2>
+                                    <div id="five" class="accordion-collapse collapse" data-bs-parent="#accordian-main">
+                                      <div class="accordion-body">Rationally encounter consequences that are extremely painful again there anyone who loves or pursues desire.
+                                    </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="text-center my-5">
+                        <p class="gray-para">Didn’t get, Click below button to more answers or <span><a class="text-danger" href="#">contact us.</a></span></p>
+                        <div>
+                            <a class="apply-now" href="#">Grab Your Deals</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="buy-phone">
+                <div class="d-flex">
+                    <div class="col-lg-6">
+                        <div class="pt-5">
+                            <span class="fs-5 red-text">0% installment offer</span>
+                            <h2 class="personalize-h2">Travel and Hotel offer</h2>
+                            <p class="gray-para">Claims off duty or the obligations business it will frequently occur   that pleasures be repudiated.</p>
+                            <div class="d-flex flex-wrap">
+                                <div class="col-12 col-sm-6 mb-4">
+                                    <span class="fs-6">Spend <br> Minimum 50 Ms doller</span>
+                                </div>
+                                <div class="col-12 col-sm-6 mb-4">
+                                    <span class="fs-6">Not Valid For <br> Commercial Credit Card</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="apply-now" href="#">Grab Your Deals</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="paris-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slogan">
+                <div class="slogan-img">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-xl-7">
+                                <h2 class="foreign-h2">Experience a New Digital World.</h2>
+                                <p class="hero-para mt-2">Mobile banking application with new & exciting features.</p>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="d-flex flex-wrap">
+                                    <a href="" class="slogan-btn sb-white me-2 mb-4"><i class="bi bi-google-play me-2 red-text"></i>Download</a>
+                                    <a href="" class="slogan-btn sb-red mb-4"><i class="bi bi-apple me-2"></i>Contact us</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 col-md-3 mb-4">
+                        <h4 class="text-white mb-4">Loans</h4>
+                        <ul class="f-menu">
+                            <li class="f-menu-item"><a href="#">Home Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Personal Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Vehicle Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Education Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Gold Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Low Interest</a></li>
+                            <li class="f-menu-item"><a href="#">Our All Cards</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <h4 class="text-white mb-4">Rates And Charges</h4>
+                        <ul class="f-menu">
+                            <li class="f-menu-item"><a href="#">About Us</a></li>
+                            <li class="f-menu-item"><a href="#">Testimonial</a></li>
+                            <li class="f-menu-item"><a href="#">Career</a></li>
+                            <li class="f-menu-item"><a href="#">carear Detail</a></li>
+                            <li class="f-menu-item"><a href="#">FAQ's</a></li>
+                            <li class="f-menu-item"><a href="#">List View</a></li>
+                            <li class="f-menu-item"><a href="#">Get In touch</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <h4 class="text-white mb-4">About Us</h4>
+                        <ul class="f-menu">
+                            <li class="f-menu-item"><a href="#">About Us</a></li>
+                            <li class="f-menu-item"><a href="#">Bord Of directors</a></li>
+                            <li class="f-menu-item"><a href="#">career</a></li>
+                            <li class="f-menu-item"><a href="#">career details</a></li>
+                            <li class="f-menu-item"><a href="#">business</a></li>
+                            <li class="f-menu-item"><a href="#">FAQ's</a></li>
+                            <li class="f-menu-item"><a href="#">Testimonials</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <h4 class="text-white mb-4">Services</h4>
+                        <ul class="f-menu">
+                            <li class="f-menu-item"><a href="#">All Accounts</a></li>
+                            <li class="f-menu-item"><a href="#">Home Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Personal Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Vehicle Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Education Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Gold Loan</a></li>
+                            <li class="f-menu-item"><a href="#">Our All Cards</a></li>
+                            </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="gray-para">Copyright &copy; 2024 <span class="text-white">Finbank</span>. Licensed by the
+                    Central Bank of United States.</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./javascript/script.js"></script>
+    </section>
+</body>
+</html>

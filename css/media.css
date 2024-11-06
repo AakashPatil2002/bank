@@ -1,0 +1,117 @@
+@media (min-width:576px){
+    .logo{
+        width: 250px;
+    }
+    .hero{
+        padding-top: 60px;
+    }
+    .hero-heading{
+        font-size: 40px;
+    }
+    .hero-para{
+        font-size: 16px;
+    }
+    .heading-h2{
+        font-size: 45px;
+    }
+    .gray-para{
+        font-size: 16px;
+    }
+    .individuals{
+        padding: 27px 45px;
+    }
+    .componies{
+        padding:27px 45px ;
+    }
+    .yn-h3{
+        font-size: 30px;
+    }
+    .call-list-item{
+        font-size: 18px;
+    }
+    .bg-left{
+        clip-path: polygon(0 0, 83% 0, 100% 51%, 78% 100%, 0 100%);
+        position: relative;
+        left: 30px;
+    }
+    .bg-left-text{
+        position: relative;
+        left: -30px;
+    }
+    .call-right{
+        clip-path: polygon(25% 0, 99% 0, 100% 100%, 25% 100%, 0 51%);
+    }
+    .personalize-h2{
+        font-size: 45px;
+    }
+    .emg-service{
+        padding: 70px 4%;
+    }
+    .foreign-ex{
+        padding: 100px 4%;
+    }
+    .search{
+        width: 370px;
+    }
+    .related-k{
+        width: 320px;
+    }
+    .min-balance{
+        font-size: 22px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+} 
+@media (min-width:768px){
+    .hero{
+        padding-top: 100px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(../images/background/hero.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-heading{
+        font-size: 48px;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .heading-h2{
+        font-size: 50px;
+    }
+    .gray-para{
+        font-size: 18px;
+    }
+    .your-needs{
+        padding-top: 100px;
+    }
+    .yn-h3{
+        font-size: 36px;
+    }
+    .mobile-img{
+        padding: 70px;
+    }
+    .personalize-h2{
+        font-size: 50px;
+    }
+    .emg-service{
+        padding: 100px 4%;
+    }
+    .personlize-card{
+        padding: 100px 4%;
+    }
+}
+@media (min-width:992px){
+    .hero-heading{
+        font-size: 60px;
+    }
+}
+@media (min-width:1200px){
+    .top{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .logo{
+        height: 140px;
+    }
+}
